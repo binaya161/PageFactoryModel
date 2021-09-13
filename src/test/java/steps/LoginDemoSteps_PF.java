@@ -46,6 +46,7 @@ public class LoginDemoSteps_PF {
     @And ("user clicks on login")
     public void user_clicks_on_login(){
         login.clickOnLogin ();
+        System.out.println ("I am only ONE THAT HAVE BEEN CHANGED ON THIS FOLDER");
 
     }
 
