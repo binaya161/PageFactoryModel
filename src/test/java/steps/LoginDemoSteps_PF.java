@@ -40,7 +40,7 @@ public class LoginDemoSteps_PF {
         login = new LoginPage_PF(driver);
         login.enterUsername (username);
         login.enterPassword (password);
-        Thread.sleep (3000);
+        Thread.sleep ( 3000 );
     }
 
     @And ("user clicks on login")
